@@ -107,7 +107,7 @@ fn main() -> Result<()> {
     server.fn_handler("/execute", Method::Post, move |mut req| {
 
         // read the request body
-        let mut buf = [0u8; 5];
+        let mut buf = [0u8; 1024];
         let mut body = Vec::new();
         loop {
             let len = req.read(&mut buf)?;

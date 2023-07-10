@@ -144,7 +144,7 @@ fn main() -> Result<()> {
         Ok(())
     })?;
 
-    let button = PinDriver::input(peripherals.pins.gpio2)?;
+    let button = PinDriver::input(peripherals.pins.gpio4)?;
     let mut button_released = false;
 
     loop {

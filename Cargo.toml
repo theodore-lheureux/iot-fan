@@ -4,7 +4,7 @@ version = "0.1.0"
 authors = ["Theodore L'Heureux <theodorelheureux@gmail.com>"]
 edition = "2021"
 resolver = "2"
-rust-version = "1.66"
+rust-version = "1.71"
 
 [profile.release]
 opt-level = "s"
